@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="BMI Calculator"
+        android:textColor="#320F0F"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textFontWeight="600"/>
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#FAF5F5"
+        android:layout_gravity="center"
+        android:hint="Enter height (in cm)"
+        android:textColorHint="#B1A4A4"
+        android:textColor="@color/black"
+        android:layout_margin="20sp"/>
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#FAF5F5"
+        android:layout_gravity="center"
+        android:hint="Enter weight (in kg)"
+        android:textColorHint="#B1A4A4"
+        android:textColor="@color/black"
+        android:layout_margin="30sp"/>
+    <Button
+        android:id="@+id/cal"
+        
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Calculate"
+        android:textSize="20sp"
+        android:background="#EA9D9D"
+        />
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="20sp"
+        android:layout_gravity="center"
+        android:background="#8DDFDF"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#E3B8B8"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
